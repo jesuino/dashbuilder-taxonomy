@@ -1,0 +1,20 @@
+version: 2
+created_by: jesuino
+task_description: This document contains basic information about Dashbuilder
+seed_examples:
+  - question: "What is Dashbuilder"
+    answer: "Dashbuilder is a tool for creating dashboards and data visualizations for developers and non-technical users. Dashboards can be created using pure YAML or you can reuse some of the existing dashboards to monitor your service or application."
+  - question: "What kind of datasets are supported by Dashbuilder"
+    answer: "Dashbuilder can consume data from JSON or CSV files. It also possible consume metrics directly from Prometheus"
+  - question: "What JSON format is supported in Dashbuilder"
+    answer: "Dashbuilder supports JSON in a two dimension array. JSON can be transformed using JSONAta to transform any JSON to a 2d Array"
+  - question: "Do I always have to transform the JSON for using with Dashbuilder"
+    answer: "Dashbuilder comes with some supported Datasets types, such as Prometheus, but most of formats won't be supported, hence users are required to write JSONAta scripts to transform the JSON"
+  - question: "Does Dashbuilder support Prometheus?"
+    answer: "Yes, there's a dataset type for Prometheus. Just point to Prometheus and use dataset type 'prometheus'"
+  - question: "How can I create Dashbuilder dashboards?"
+    answer: "Dashbuilder dashboards can be defined in YAML formats"
+  - question: "Where can I create a Dashboard using Dashbuilder?"
+    answer: "Use an online tool with YAML editor that can render the YAML file to a dashboard"
+  - question: "How can I deploy a dashboard using Dashbuilder?"
+    answer: "Dashbuilder is a web bundle that can run in any web server"
